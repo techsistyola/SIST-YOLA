@@ -57,21 +57,22 @@ export default function AdminDashboard() {
             Quick navigation
           </h2>
           <div className="flex flex-wrap gap-3 text-sm">
-            <Link
-              href="/dashboard/admin/students"
-              className="px-3 py-1.5 rounded-lg border border-sistGreen text-sistGreen hover:bg-sistGreen hover:text-white transition"
-            >
-              Manage Students
-            </Link>
-            <span className="px-3 py-1.5 rounded-lg border border-gray-300 text-gray-500 cursor-not-allowed">
-              Fees (coming soon)
-            </span>
-            <span className="px-3 py-1.5 rounded-lg border border-gray-300 text-gray-500 cursor-not-allowed">
-              Results (coming soon)
-            </span>
-          </div>
-        </div>
-
+  <Link
+    href="/dashboard/admin/students"
+    className="px-3 py-1.5 rounded-lg border border-sistGreen text-sistGreen hover:bg-sistGreen hover:text-white transition"
+  >
+    Manage Students
+  </Link>
+  <Link
+    href="/dashboard/admin/fees"
+    className="px-3 py-1.5 rounded-lg border border-sistGreen text-sistGreen hover:bg-sistGreen hover:text-white transition"
+  >
+    Manage Fees
+  </Link>
+  <span className="px-3 py-1.5 rounded-lg border border-gray-300 text-gray-500 cursor-not-allowed">
+    Results (coming soon)
+  </span>
+</div>
         <div className="bg-white border border-green-100 rounded-xl p-4">
           <h2 className="font-semibold text-gray-800 mb-2 text-sm">
             Next steps
