@@ -16,7 +16,7 @@ type StudentRow = {
   enrolled_at: string | null;
   classes: {
     name: string;
-  } | null;
+  }[] | null;
 };
 
 export default function StudentsPage() {
