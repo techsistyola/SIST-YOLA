@@ -216,7 +216,7 @@ export default function StudentsPage() {
                       </td>
                       <td className="px-3 py-2 border-b">{s.full_name}</td>
                       <td className="px-3 py-2 border-b">
-                        {s.classes?.name || "—"}
+                        {s.classes && s.classes.length > 0 ? s.classes[0].name : "—"}
                       </td>
                       <td className="px-3 py-2 border-b capitalize">
                         {s.status || "active"}
